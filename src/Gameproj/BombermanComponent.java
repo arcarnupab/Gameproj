@@ -139,7 +139,7 @@ public class BombermanComponent extends JComponent implements FloorListener
 	g2d.drawLine(colIndex* SQUARE_SIZE+SQUARE_SIZE, rowIndex*SQUARE_SIZE, colIndex*SQUARE_SIZE+SQUARE_SIZE, rowIndex*SQUARE_SIZE+SQUARE_SIZE);
     }
 
-    private void paintFloor(int rowIndex, int colIndex, Graphics g2d){
+        private void paintFloor(int rowIndex, int colIndex, Graphics g2d){
 	g2d.setColor(Color.white);
 	g2d.fillRect(colIndex * SQUARE_SIZE, rowIndex * SQUARE_SIZE, SQUARE_SIZE, SQUARE_SIZE);
 	g2d.setColor(Color.CYAN);
